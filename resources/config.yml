@@ -1,0 +1,21 @@
+# Welcome to the Cusom Heads For HeliumBalloon configuration settings
+#
+# This adds Custom heads as pet to  HeliumBalloon
+#
+# Get the HeliumBalloon plugin from
+#   https://www.spigotmc.org/resources/heliumballoon.95902
+#
+#
+# The following configuration is loaded as part of the Balloon Config.
+# It offers a rubicsc cube as demo for custom heads
+#
+      
+templates:
+    demohead:
+        head:
+           url: "http://textures.minecraft.net/texture/5d86e7bd28c146f71514c782cac055860d1f372b4a9be3fe65cfe1104733ba"
+
+pets:
+    demohead:
+        behavior: head
+        templates: demohead

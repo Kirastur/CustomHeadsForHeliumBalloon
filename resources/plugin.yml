@@ -1,0 +1,9 @@
+name: CustomHeadsForHeliumBalloon
+version: 1.0
+description: Add Custom Heads to HeliumBalloon
+author: Kirastur
+
+api-version: 1.19
+load: POSTWORLD
+main: de.polarwolf.customheads.Main
+depend: [LibsDisguises, HeliumBalloon]
